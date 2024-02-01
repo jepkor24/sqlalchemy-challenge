@@ -7,11 +7,11 @@ This sql challenge has several aspects that need to be completed i.e.
 1. Part 1: Analyze and Explore the Climate Data
  use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
 
-Note that you’ll use the provided files (climate_starter.ipynb and hawaii.sqlite) to complete your climate analysis and data exploration.
+Used the provided files (climate_starter.ipynb and hawaii.sqlite) to complete your climate analysis and data exploration.
 
-Use the SQLAlchemy create_engine() function to connect to your SQLite database.
+Used the SQLAlchemy create_engine() function to connect to your SQLite database.
 
-Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
+Used the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
 
 Link Python to the database by creating a SQLAlchemy session.
 
@@ -81,7 +81,11 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
     For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
-    Hints
-    Join the station and measurement tables for some of the queries.
+  
+    
 
     Use the Flask jsonify function to convert your API data to a valid JSON response object.
+
+    Summary: All the files are located as follows:
+        The SurfsUp folder i.e. the climate_starter and the app files respectively. 
+        The Resources folder contains the sqlite file and measurements and stations files used in the analysis
